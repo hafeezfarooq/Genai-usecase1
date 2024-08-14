@@ -94,7 +94,7 @@ if __name__ == '__main__':
         index=index,
         docstore=InMemoryDocstore(),
         index_to_docstore_id={}
-        )
+    )
 
     #Openai chat client
     client = AzureOpenAI(
